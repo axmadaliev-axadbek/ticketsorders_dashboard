@@ -1,0 +1,39 @@
+html{
+    box-sizing: border-box;
+}
+
+*, 
+*::after,
+*::before{
+    box-sizing: inherit;
+
+}
+
+body{
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    margin: 0;
+    font-family: "Mulish";
+    background-color: rgba(55, 82, 255, 0.04);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+}
+
+img{
+    // display: inline-block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+
